@@ -9,7 +9,8 @@ Tools necessary to run this script are listed below.
 - To filter 16S reads: <a class="reference external" href="https://bioinfo.lifl.fr/RNA/sortmerna/" target="_blank" rel="noopener noreferrer">SortMeRNA</a> 
 - To reconstruct full-length SSU rRNA sequences: <a class="reference external" href="https://github.com/csmiller/EMIRGE" target="_blank" rel="noopener noreferrer">EMIRGE</a> 0.60
 - Classify the full-length reconstructed SSU sequences: the Python script <a class="reference external" href="http://qiime.org/scripts/assign_taxonomy.html" target="_blank" rel="noopener noreferrer">assign_taxonomy.py</a> of QIIME1.9.1 and the <a class="reference external" href="https://www.arb-silva.de/download/archive/qiime" target="_blank" rel="noopener noreferrer">SILVA119</a> QIIME compatible database.
- Please install these tools according to their author's recommendations.
+
+ Please install these tools in your ```$PATH``` according to their author's recommendations. All tools 
 
 ## Preparing databases
 
@@ -29,7 +30,7 @@ sortmerna-2.1-linux-64/indexdb_rna --ref \
 
 ### Indexing EMIRGE database
 
-EMIRGE provided a specific script to download and index the current version of the Silva SSU rRNA database (here SILVA119).
+EMIRGE provided a specific script to download and index the current version of the Silva SSU rRNA database (SILVA119 in this work).
 Run the following command.
 
 ```bash
