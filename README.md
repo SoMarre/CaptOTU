@@ -23,7 +23,8 @@ To index the 16S rRNA database use the following line.
 ```bash
 sortmerna-2.1-linux-64/indexdb_rna --ref \
 ./rRNA_databases/silva-bac-16s-id90.fasta,./index/silva-bac-16s-db:\
-./rRNA_databases/silva-arc-16s-id95.fasta,./index/silva-arc-16s-db
+./rRNA_databases/silva-arc-16s-id95.fasta,./index/silva-arc-16s-db:\
+./rRNA_databases/silva-euk-18s-id95.fasta,./index/silva-euk-18s-db
 ```
 
 ### Indexing EMIRGE database
