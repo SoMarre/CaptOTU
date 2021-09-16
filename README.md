@@ -10,8 +10,7 @@ Tools necessary to run this script are listed below.
 - To reconstruct full-length SSU rRNA sequences: <a class="reference external" href="https://github.com/csmiller/EMIRGE" target="_blank" rel="noopener noreferrer">EMIRGE</a> 0.60
 - Classify the full-length reconstructed SSU sequences: the Python script <a class="reference external" href="http://qiime.org/scripts/assign_taxonomy.html" target="_blank" rel="noopener noreferrer">assign_taxonomy.py</a> of QIIME1.9.1 and the <a class="reference external" href="https://www.arb-silva.de/download/archive/qiime" target="_blank" rel="noopener noreferrer">SILVA119</a> QIIME compatible database.
 
- Please install these tools in your ```$PATH``` according to their author's recommendations. All tools 
-
+ Please install these tools in your ```$PATH``` according to their author's recommendations.
 ## Preparing databases
 
 SortMeRNA and EMIRGE were fed with the SILVA SSU 119 database which need to be indexed separately for each tool.
