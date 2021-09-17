@@ -6,9 +6,9 @@ This script takes as input paired end reads (fastq file). We considered that seq
 
 Tools necessary to run this script are listed below.
 - For quality trimming: <a class="reference external" href="https://github.com/uwb-linux/prinseq" target="_blank" rel="noopener noreferrer">Prinseq-lite</a>
-- To filter 16S reads: <a class="reference external" href="https://bioinfo.lifl.fr/RNA/sortmerna/" target="_blank" rel="noopener noreferrer">SortMeRNA</a> 
-- To reconstruct full-length SSU rRNA sequences: <a class="reference external" href="https://github.com/csmiller/EMIRGE" target="_blank" rel="noopener noreferrer">EMIRGE</a> 0.60
-- Classify the full-length reconstructed SSU sequences: the Python script <a class="reference external" href="http://qiime.org/scripts/assign_taxonomy.html" target="_blank" rel="noopener noreferrer">assign_taxonomy.py</a> of QIIME1.9.1 and the <a class="reference external" href="https://www.arb-silva.de/download/archive/qiime" target="_blank" rel="noopener noreferrer">SILVA119</a> QIIME compatible database.
+- To filter 16S reads: <a class="reference external" href="https://bioinfo.lifl.fr/RNA/sortmerna/" target="_blank" rel="noopener noreferrer">SortMeRNA</a> v2.1
+- To reconstruct full-length SSU rRNA sequences: <a class="reference external" href="https://github.com/csmiller/EMIRGE" target="_blank" rel="noopener noreferrer">EMIRGE</a> v0.60
+- Classify the full-length reconstructed SSU sequences: the Python script <a class="reference external" href="http://qiime.org/scripts/assign_taxonomy.html" target="_blank" rel="noopener noreferrer">assign_taxonomy.py</a> of QIIME v1.9.1 and the <a class="reference external" href="https://www.arb-silva.de/download/archive/qiime" target="_blank" rel="noopener noreferrer">SILVA119</a> QIIME compatible database.
 
  Please install these tools in your ```$PATH``` according to their author's recommendations.
 ## Preparing databases
